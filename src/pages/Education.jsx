@@ -8,8 +8,8 @@ import EducationItem from './EducationItem';
 
 const Education = () => {
   const socialLinks = [
-    { url: 'https://www.hackerrank.com/profile/SURAJ_M_S', icon: SiHackerrank },
-    { url: 'https://leetcode.com/u/SURAJ_M_S/', icon: SiLeetcode },
+    // { url: 'https://www.hackerrank.com/profile/SURAJ_M_S', icon: SiHackerrank },
+    // { url: 'https://leetcode.com/u/SURAJ_M_S/', icon: SiLeetcode },
     // { url: 'https://twitter.com', icon: SiCodeforces },
   ];
 

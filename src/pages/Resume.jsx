@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import SurajResume from '../assets/images/SurajResume.jpg';
-import SurajMS from '../assets/SurajMS.pdf';
+import Page1 from '../assets/images/TejaswiniHL_FullStack_Resume _page-0001.jpg';
+import Page2 from '../assets/images/TejaswiniHL_FullStack_Resume _page-0002.jpg';
+import TejaswiniHL_FullStack_Resume from '../assets/TejaswiniHL_FullStack_Resume.pdf';
 
 const PdfViewer = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,7 +30,7 @@ const PdfViewer = () => {
     >
       {/* Download button */}
       <a
-        href={SurajMS}
+        href={TejaswiniHL_FullStack_Resume}
         download="SurajResume.pdf"
         style={{
           padding: '10px 20px',
@@ -48,15 +49,23 @@ const PdfViewer = () => {
 
       {/* Show PDF in iframe on desktop, image on mobile */}
       {isMobile ? (
-        <img
-          src={SurajResume}
-          alt="Suraj's Resume"
-          width="80%"
-          style={{ marginTop: '20px', border: '1px solid #ccc' }}
-        />
+        <>
+          <img
+            src={Page1}
+            alt="Resume page 1"
+            width="80%"
+            style={{ marginTop: '20px', border: '1px solid #ccc' }}
+          />
+          <img
+            src={Page2}
+            alt="Resume page 2"
+            width="80%"
+            style={{ marginTop: '20px', border: '1px solid #ccc' }}
+          />
+        </>
       ) : (
         <iframe
-          src={SurajMS}
+          src={TejaswiniHL_FullStack_Resume}
           title="Suraj's Resume"
           width="80%"
           height="800px"
