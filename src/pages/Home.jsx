@@ -11,9 +11,8 @@ import img404 from '../assets/images/404.png'
 
 const Home = () => {
     const socialLinks = [
-        { url: 'https://www.linkedin.com/in/suraj-m-s-757540151/', icon: FaLinkedin },
-        { url: 'https://github.com/suraj-ms', icon: FaGithub },
-        { url: 'https://x.com/SurajMavatkar', icon: FaSquareXTwitter },
+        { url: 'https://www.linkedin.com/in/tejaswini-hl-9682b4213/', icon: FaLinkedin },
+        { url: 'https://github.com/TEJASWINIHL18', icon: FaGithub }
     ];
     return (
         <div>
