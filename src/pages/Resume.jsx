@@ -31,7 +31,7 @@ const PdfViewer = () => {
       {/* Download button */}
       <a
         href={TejaswiniHL_FullStack_Resume}
-        download="SurajResume.pdf"
+        download="Tejaswini_HL.pdf"
         style={{
           padding: '10px 20px',
           border: '1px solid #fff',
@@ -66,7 +66,7 @@ const PdfViewer = () => {
       ) : (
         <iframe
           src={TejaswiniHL_FullStack_Resume}
-          title="Suraj's Resume"
+          title="Tejaswini_HL's Resume"
           width="80%"
           height="800px"
           style={{ border: '1px solid #ccc' }}

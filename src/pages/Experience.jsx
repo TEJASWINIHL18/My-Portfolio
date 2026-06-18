@@ -18,7 +18,7 @@ const Experience = () => {
           img: sixd,
           title: 'Software Engineer',
           company: '6D Technologies Private Limited',
-          def: 'Full Stack Developer',
+          def: 'Full Stack Developer, 2022 - Current',
           link: 'https://www.6dtechnologies.com/',
         }
       ],
